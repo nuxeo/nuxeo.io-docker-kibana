@@ -23,7 +23,7 @@ RUN \
   cd kibana-4.0.2-linux-x64
 
 # Add Doorman template configuration file
-ADD config/doorman.js /doorman/config.js
+ADD config/doorman.js /doorman/conf.js
 # Add Kibana template configuration file
 ADD config/kibana.yml /tmp/kibana.yml
 # Add run script
